@@ -6,7 +6,7 @@ name: Development workflow
 on:
   push:
     branches:
-      - "gha-test"
+      - "dev"
 # Jobs to carry out
 jobs:
   deploy:
