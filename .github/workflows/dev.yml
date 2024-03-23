@@ -3,7 +3,10 @@ name: Development workflow
 
 # When workflow is triggered
 
-
+on:
+  push:
+    branches:
+      - "gha-test"
 # Jobs to carry out
 jobs:
   deploy:
